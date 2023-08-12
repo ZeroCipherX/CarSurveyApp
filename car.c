@@ -14,31 +14,31 @@ void car() {
 
     printf("Name of car: ");
     scanf("%49s", car.veh_name);
-    getchar(); // Consume the newline
+    getchar(); 
 
     printf("Name of engine: ");
     scanf("%49[^\n]", car.engine);
-    getchar(); // Consume the newline
+    getchar(); 
 
     printf("Fuel type: ");
     scanf("%49[^\n]", car.fuel_type);
-    getchar(); // Consume the newline
+    getchar(); 
 
     printf("Fuel tank cap: ");
     scanf("%d", &car.fuel_tank_cap);
-    getchar(); // Consume the newline
+    getchar(); 
 
     printf("What is the seating cap: ");
     scanf("%d", &car.seating_cap);
-    getchar(); // Consume the newline
+    getchar();
 
     printf("What is the mileage of the car: ");
     scanf("%f", &car.city_mileage);
-    getchar(); // Consume the newline
+    getchar(); 
 
     printf("G— for good\nB— for bad\nRate the car: ");
     char rate;
-    getchar(); // Consume the newline
+    getchar(); 
     scanf(" %c", &rate);
 
     if (rate == 'G' || rate == 'g') {
